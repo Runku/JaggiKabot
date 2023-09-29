@@ -95,7 +95,7 @@ async def pm_search(client, message):
     files, n_offset, total = await get_search_results(message.text, filter=True)
     if int(total) != 0:
         btn = [[
-            InlineKeyboardButton("Here", url='https://t.me/SL_Films_World')
+            InlineKeyboardButton("Here", url='https://t.me/+nZVKfHO3fORmN2I9')
         ]]
         await message.reply_text(f'Total {total} results found in this group', reply_markup=InlineKeyboardMarkup(btn))
 
@@ -618,7 +618,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‼️ ʜᴏᴡ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛɴᴇʀ ‼️', callback_data='howshort')
         ],[
             InlineKeyboardButton('≼ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('💬 ʜᴇʟᴘ', url="https://telegram.me/SL_Bots_Support"),
+            InlineKeyboardButton('💬 ʜᴇʟᴘ', url="https://t.me/+nZVKfHO3fORmN2I9"),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
