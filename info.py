@@ -68,7 +68,7 @@ UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/BackupByJaggi')
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
-SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), False)
+SHORTLINK = is_enabled((environ.get('SHORTLINK', "True")), True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600))
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
@@ -83,7 +83,7 @@ FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "https://tnshort.net")
 SHORTLINK_API = environ.get("SHORTLINK_API", "ad3def4886a08b8b396b452d08323f0d4595d276)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/BackupByJaggi")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/+aMOhRSKZZoIwMDM1")
 
 # stream features vars
 """Deploy this repo: https://github.com/adarsh-goel/filestreambot"""
