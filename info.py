@@ -87,7 +87,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+aMOhRSKZZoIwMDM1")
 
 # stream features vars
 """Deploy this repo: https://github.com/adarsh-goel/filestreambot"""
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002215930626)
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002215930626")
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
