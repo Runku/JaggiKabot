@@ -61,8 +61,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+nZVKfHO3fORmN2I9')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/BackupByJaggi')
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/BackupByJaggii')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/BackupByJaggii')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
@@ -87,7 +87,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+aMOhRSKZZoIwMDM1")
 
 # stream features vars
 """Deploy this repo: https://github.com/adarsh-goel/filestreambot"""
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001980751762")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002215930626)
 if len(BIN_CHANNEL) == 0:
     logging.error('BIN_CHANNEL is missing, exiting now')
     exit()
